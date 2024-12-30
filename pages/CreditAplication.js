@@ -23,7 +23,7 @@ exports.CreditAplication = class CreditAplication{
        
     }
 
-    //Condiciones de prestamo
+    //Condiciones de prestamo actualizado
     async conditions(){
         //cabecera
         await this.taplicat.click();
