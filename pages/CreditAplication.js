@@ -5,7 +5,7 @@ exports.CreditAplication = class CreditAplication{
     constructor(page){
         this.page = page;
 
-        //Distribución
+        //Distribución test
        // this.trisk = page.getByRole('tab', { name: 'Riesgos' });
         this.taplicat =  page.getByRole('tab', { name: 'Solicitud' });
         this.nextone = page.getByRole('button', { name: 'Aprobar' });
@@ -23,7 +23,7 @@ exports.CreditAplication = class CreditAplication{
        
     }
 
-    //Condiciones de prestamo
+    //Condiciones de prestamo actualizado
     async conditions(){
         //cabecera
         await this.taplicat.click();
